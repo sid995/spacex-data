@@ -14,7 +14,7 @@ export default function LaunchItem({
             Mission:{' '}
             <span
               className={classNames({
-                'text-succes': launch_success,
+                'text-success': launch_success,
                 'text-danger': !launch_success
               })}
             >
